@@ -1,0 +1,43 @@
+/* McSeriousface.com ~ Cascading Style Sheet */
+
+:root {
+  --background-1: black;
+  --background-2: rebeccapurple;
+  --background-3: blueviolet;
+
+}
+header {
+  background-color: var(--background-2);
+  text-align: center;
+  font-family: sans-serif;
+  border: 42px solid var(--background-2);
+  margin: 0px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.main-div {
+  background-color: var(--background-1);
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: var(--background-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+  border: 24px groove var(--background-2);
+  border-radius: 25px;
+  margin-left: 37px;
+}
+
+.content {
+  background-color: var(--background-1);
+  color: slateblue;
+  width: 76%;
+  border: 20px solid var(--background-1);
+}
