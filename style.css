@@ -2,24 +2,50 @@
 
 :root {
   --background-1: black;
-  --background-2: rebeccapurple;
-  --background-3: blueviolet;
-
+  --background-2: cornflowerblue;
+  --background-3: darkslateblue;
+  --background-4: rgb(45, 5, 75);
+  --color-1: slateblue;
+  --color-2: indigo;
+  --color-3: mediumslateblue;
+  --color-4: thistle;
 }
+
+.header-div {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
-  background-color: var(--background-2);
+  background-color: var(--color-3);
   text-align: center;
   font-family: sans-serif;
-  border: 42px solid var(--background-2);
+  border: 42px solid var(--background-3);
+  border-radius: 25px;
   margin: 0px;
+  color: rgb(45, 5, 72);
 }
 
 h1 {
   font-size: 4em;
+  margin-right: 16px;
+}
+
+.m-logo {
+  position: absolute;
+  left: 12%;
+  top: 19%;
+  align-items: right;
+  width: 7.5em;
+}
+
+body {
+  background-color: var(--background-4);
+  font-family: sans-serif;
 }
 
 .main-div {
-  background-color: var(--background-1);
+  background-color: var(--background-4);
   display: flex;
   flex-direction: row;
 }
@@ -29,15 +55,28 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 24%;
-  border: 24px groove var(--background-2);
+  width: 16%;
+  border: 24px groove var(--background-3);
   border-radius: 25px;
-  margin-left: 37px;
+  margin-left: 2%;
+  padding: 20px 0 20px 0;
+}
+
+.side-nav {
+  font-size: 1.4em;
+}
+
+button {
+  background-color: var(--color-3);
+  padding: 4px 12px 4px 12px;
+  border: outset var(--background-2);
+  border-radius: 20px 20px 12px 12px;
 }
 
 .content {
-  background-color: var(--background-1);
-  color: slateblue;
+  background-color: var(--color-3);
+  color: var(--color-4);
   width: 76%;
-  border: 20px solid var(--background-1);
+  border: 4px inset var(--background-2);
+  margin-left: 15px;
 }
