@@ -11,9 +11,18 @@
   --color-4: thistle;
 }
 
-.header-div {
-  display: flex;
-  flex-direction: column;
+.logo-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+}
+
+.logo-div {
+
+}
+
+.logo-align {
+  text-align: left;
 }
 
 header {
@@ -22,7 +31,7 @@ header {
   font-family: sans-serif;
   border: 42px solid var(--background-3);
   border-radius: 25px;
-  margin: 0px;
+  margin: 0 0 10px 0;
   color: rgb(45, 5, 72);
 }
 
@@ -31,12 +40,13 @@ h1 {
   margin-right: 16px;
 }
 
+h3 {
+  margin-left: 3%;
+}
+
 .m-logo {
-  position: absolute;
-  left: 12%;
-  top: 19%;
-  align-items: right;
   width: 7.5em;
+  margin-left: 24%;
 }
 
 body {
@@ -73,10 +83,33 @@ button {
   border-radius: 20px 20px 12px 12px;
 }
 
+.butt {
+  align-items: center;
+  margin: 15px 0 0 4%;
+}
+
 .content {
   background-color: var(--color-3);
   color: var(--color-4);
   width: 76%;
   border: 4px inset var(--background-2);
   margin-left: 15px;
+}
+
+.order-img {
+  max-width: 24%;
+}
+
+p {
+  margin: 1em;
+}
+
+footer {
+  margin: 3em 0 8em 0;
+}
+
+.tiny-text {
+  color: var(--color-4);
+  font-size: .3em;
+  text-align: center;
 }

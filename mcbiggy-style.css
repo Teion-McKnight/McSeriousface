@@ -1,0 +1,35 @@
+
+.bun-seeds {
+  height: 10em;
+  background-color: chocolate;
+}
+
+.pickles {
+  height: 1em;
+  background-color: darkolivegreen;
+}
+
+.cheese {
+  height: .8em;
+  background-color: gold ;
+}
+
+.meat {
+  height: 2.5em;
+  background-color: brown;
+}
+
+.lettuce {
+  height: .9em;
+  background-color: yellowgreen ;
+}
+
+.sauce {
+  height: .6em;
+  background-color: burlywood;
+}
+
+.bun {
+  height: 7em;
+  background-color: chocolate;
+}
