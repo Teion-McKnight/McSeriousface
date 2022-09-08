@@ -1,7 +1,28 @@
 
 .bun-seeds {
   height: 10em;
-  background-color: chocolate;
+  border-radius: 76px 76px 0 0;
+  background: linear-gradient(0deg, wheat 5%, chocolate 55%);
+}
+
+.seed {
+  height: .35em;
+  width: .35em;
+  background-color: white;
+  border-radius: 20% 70% 20% 70%;
+  display: inline-block;
+  align-items: center;
+	margin: 20px;
+}
+
+.seed-2 {
+  height: .25em;
+  width: .25em;
+  background-color: red;
+  border-radius: 20% 70% 20% 70%;
+  display: inline-block;
+  align-items: center;
+  margin: 22px;
 }
 
 .pickles {
@@ -11,17 +32,17 @@
 
 .cheese {
   height: .8em;
-  background-color: gold ;
+  background-color: gold;
 }
 
 .meat {
-  height: 2.5em;
+  height: 2.7em;
   background-color: brown;
 }
 
 .lettuce {
   height: .9em;
-  background-color: yellowgreen ;
+  background-color: yellowgreen;
 }
 
 .sauce {
@@ -29,7 +50,11 @@
   background-color: burlywood;
 }
 
-.bun {
-  height: 7em;
-  background-color: chocolate;
+.bun , .bun-b{
+  height: 6em;
+  background: linear-gradient(180deg, wheat 5%, chocolate 60%);
+}
+
+.bun-b {
+  border-radius: 0 0 76px 76px;
 }
