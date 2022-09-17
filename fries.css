@@ -1,0 +1,39 @@
+/* Mcseriousface Fry Art Cascacading Style Sheet */
+
+.box-left {
+  width: 14em;
+  height: 5em;
+  transform: skew(20deg);
+  background: red;
+  margin: 12% 0 0 22%;
+}
+
+.box-right {
+  width: 5em;
+  height: 5em;
+  transform: skew(-20deg);
+  background: red;
+  margin: 12% 0 0 22%;
+  position: relative;
+  bottom: 140px;
+  left: 220px;
+}
+
+.fry-1, .fry-2, .fry-3, .fry-4, .fry-5, .fry-6, .fry-7, .fry-8, .fry-9 {
+  width: 1.45em;
+	height: 6em;
+	transform: skew(20deg);
+	background: goldenrod;
+  margin: 3% 0 0 20%;
+  position: absolute;
+}
+
+.fry-2 {
+  left: 26%;
+  transform: skew(16deg);
+}
+
+.fry-3 {
+  left: 29%;
+  transform: skew(12deg);
+}
